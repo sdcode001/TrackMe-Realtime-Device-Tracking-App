@@ -9,7 +9,7 @@ import { ConfigViewService } from "../config-view/config-view.service";
 )
 export class MapViewService{
 
-    private connection_url = 'http://localhost:5000'
+    private connection_url = 'https://trackme-backend-server.onrender.com' //'http://localhost:5000'
     private socket!: Socket;
     private my_socket_id?: any
 
