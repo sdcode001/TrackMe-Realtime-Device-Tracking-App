@@ -1,0 +1,25 @@
+<div  class="backdrop"></div>
+
+<dialog open>
+  <form (ngSubmit)="handelSubmit()">
+    <div class="input-card">
+        <div class="db-input">
+          <h2>TrackMe User Config Input</h2>
+          <p>
+            <label for="email">EMAIL</label>
+            <input type="text" id="email" name="email" placeholder="Email" [(ngModel)]="email"/>
+          </p>
+          
+          <p>
+            <label for="device_name">DEVICE NAME</label>
+            <input type="text" id="device_name" name="device_name" placeholder="Device Name" [(ngModel)]="device_name"/>
+          </p>
+              
+        </div>
+    </div>
+    
+    <p class="actions">
+      <button type="submit">Save</button>
+    </p>
+  </form>
+</dialog>

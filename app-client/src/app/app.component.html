@@ -1,0 +1,12 @@
+@if(showConfigView){
+  <app-config-view (submit_or_cancel)="handelConfigAction($event)"/>
+}
+@else {
+     <div>
+        <app-header (showConfig)="onShowConfig($event)"/>
+        <main>
+            <app-map-view />
+        </main>
+     </div>
+     
+}
