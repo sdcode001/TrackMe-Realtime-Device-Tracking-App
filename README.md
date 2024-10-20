@@ -1,5 +1,7 @@
 # TrackMe - Realtime Device Tracker
 TrackMe is a real-time device tracking application that allows users to monitor multiple devices from a single location. Devices are linked by the same email address, creating a unified tracking channel for each user. This makes it easy to track the location of all devices associated with an account in real time.
+![Screenshot 2024-10-20 133716](https://github.com/user-attachments/assets/ef523d47-3c32-4e93-8461-d35f3ff7160d)
+
 
 ## Features
 #### Real-Time Tracking: Track multiple devices simultaneously in real-time.
